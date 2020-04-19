@@ -1,6 +1,8 @@
 # Bingo-Housie-Tambola-Number-Generator
 
-## Click to [demo]{https://iam-rocketman.github.io/Bingo-Housie-Tambola-Number-Generator/}
+## Click Demo below for preview
+
+[Demo](https://iam-rocketman.github.io/Bingo-Housie-Tambola-Number-Generator/)
 
 
 
