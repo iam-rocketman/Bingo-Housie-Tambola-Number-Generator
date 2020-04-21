@@ -11,6 +11,7 @@ Fixed typo from the orgianl source
 Changed colors for better viewing
 Added Rest game button
 Removed Banner
+added sound effects
 
 
 All creitds beling to Yash

@@ -160,7 +160,6 @@
     <body>
         <div class="container">
             <h2>Housie / Tambola Number Generator</h2>
-
             <div id="generator-container">
                    	<input type="button" value="New Game" id="btn-generate-reset" onclick="location.reload()">
                    	<br>
@@ -242,14 +241,36 @@
 
             var generated_numbers = [];
 
-            $(function(){
+/*            $(function(){
                 for(i=1; i<=90; i++){
                     $("<div />").addClass("num").html(i).attr("id","num-" + i).appendTo("#grid-container");
-                }
+								
+                }*/
+				   $(function () {
+							for (i = 1; i <= 90; i++) {
+								$("<div />")
+									.addClass("num")
+									.html(i)
+									.attr("id", "num-" + i)
+									.appendTo("#grid-container");
+								/* code by smarath */
+								let file_name = `sounds/${i}.mp3`;
+								console.log({ file_name });
+								let play_sound = new Audio(file_name);
+								play_sound.play();
+        }
 
                 var cw = $('.num').width();
                 $('.num').css({'height':cw+'px','line-height':cw+'px'});
             });
+					
+/*					function makeSound(num) {
+					num = parseInt(num);
+					let file_name = `sounds/${num}.mp3`;
+					console.log({ file_name });
+					let play_sound = new Audio(file_name);
+					play_sound.play();
+				}*/
 
             function generateNum(){
                 if(generated_numbers.length == 90){
