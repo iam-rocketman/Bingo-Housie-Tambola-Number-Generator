@@ -17,6 +17,9 @@
 ### Future Roadmap
 * Host and player mode
 * Use reactjs to enable session based game
+* Add language support for regional language
+
+You can also suggest feature by creating a ticket.
 
 
 All creitds beling to Yash
