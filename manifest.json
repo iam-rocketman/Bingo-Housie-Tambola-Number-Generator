@@ -1,0 +1,114 @@
+{
+    "dir": "ltr",
+    "lang": "English",
+    "name": "Housie/Tambola Board Online",
+    "scope": "/Bingo-Housie-Tambola-Number-Generator/",
+    "display": "fullscreen",
+    "start_url": "https://iam-rocketman.github.io/Bingo-Housie-Tambola-Number-Generator/",
+    "short_name": "Tambola Board",
+    "theme_color": "transparent",
+    "description": "Housie/Tambola Board Online app with sound and offline option",
+    "orientation": "portrait-primary",
+    "background_color": "transparent",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "/images/31d6374f-4fa8-db17-c6c8-5fef07e5ee67.webPlatform.png",
+            "sizes": "44x44",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/1b7aa30f-ccc4-cf6f-f916-d958406d0e85.webPlatform.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/cc9beaac-5378-b998-3798-e06bc48cda5e.webPlatform.png",
+            "sizes": "1240x600",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/af47c395-d51d-d53b-5816-09a8addfdcfd.webPlatform.png",
+            "sizes": "300x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/b9516e71-01f7-dcbd-478d-a1dd550dc910.webPlatform.png",
+            "sizes": "150x150",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/dca3ffd3-07d8-00bb-d466-46bc0d28b8b6.webPlatform.png",
+            "sizes": "88x88",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/3dc0fbb0-b2a1-8d24-8b8d-6af234d78c6a.webPlatform.png",
+            "sizes": "24x24",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/6800877f-44b8-2359-1eea-0d44e49d0ee9.webPlatform.png",
+            "sizes": "50x50",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/f91ca914-6e9b-b4f6-f93c-33fadb40e6cf.webPlatform.png",
+            "sizes": "620x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/83c40f70-5031-be4f-3372-ce2a1139fa75.webPlatform.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/d901e791-3267-0043-c54a-723278155174.webPlatform.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/7fa9e90e-2abd-4c8e-c3d0-a8da75a33432.webPlatform.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/8f4c80de-3145-e7bb-650f-7c805760f33b.webPlatform.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/4e35587b-76d0-8c32-e897-46f836ed359d.webPlatform.png",
+            "sizes": "36x36",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/c2491c62-5dd7-573b-4423-6825dc8e4457.webPlatform.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/58918d01-17d7-10b3-6668-664f70b3dd75.webPlatform.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/e90f7a27-79e5-0f23-977d-3665a996a920.webPlatform.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/a45b180c-1ad2-1887-e736-8a3a67964203.webPlatform.png",
+            "sizes": "120x120",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/9e435229-4fcb-77cf-6692-6ece93fe3522.webPlatform.png",
+            "sizes": "76x76",
+            "type": "image/png"
+        }
+    ],
+    "url": "https://iam-rocketman.github.io/Bingo-Housie-Tambola-Number-Generator/",
+    "screenshots": []
+}
