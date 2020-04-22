@@ -1,0 +1,147 @@
+h2 {
+				color: #3f6ad8;
+			}
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#grid-container {
+	margin-top: 20px;
+	max-width: 900px;
+	width: 100%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.num {
+	width: 9%;
+	margin: 2px;
+	border: 1px solid #ccc;
+	display: inline-block;
+	color: #cccccc;
+	font-size: 34px;
+	box-sizing: border-box;
+}
+
+.generated {
+	border-color: #2139fc;
+	color: #787dd9;
+	background-color: lavender;
+}
+
+#generator-container {
+	border: 1px solid #888;
+	border-radius: 30px;
+	display: block;
+	position: fixed;
+	left: 20px;
+	top: 80px;
+	padding: 20px;
+	text-align: center;
+	box-sizing: border-box;
+	background-color: #fff;
+}
+
+#number {
+	font-size: 36px;
+	text-align: center;
+	color: #787dd9;
+	font-weight: bold;
+	margin: 10px;
+	display: inline-block;
+	background-color: #eee;
+	padding: 20px;
+	border-radius: 10px;
+	border: 1px solid #eee;
+}
+
+#btn-generate-reset {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background-color: #6c757d;
+	color: #fffbf7;
+	width: 60px;
+	height: 30px;
+	font-size: 14px;
+	padding: 05px;
+	cursor: pointer;
+	border: 1px solid #6c757d;
+	border-radius: 10px;
+}
+
+#btn-generate-reset:active {
+	position: relative;
+	left: 1;
+	top: 1;
+}
+
+#btn-generate {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background-color: #3f6ad8;
+	color: white;
+	width: 100px;
+	font-size: 18px;
+	padding: 10px;
+	cursor: pointer;
+	border: 1px solid #3f6ad8;
+	border-radius: 15px;
+}
+
+#btn-generate:active {
+	position: relative;
+	left: 1;
+	top: 1;
+}
+
+
+#footer {
+	font-size: 12px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #888;
+}
+
+a:link,
+a:visited {
+	color: blue;
+	text-decoration: none;
+}
+
+a:hover {
+	color: red;
+}
+
+@media screen and (max-width: 799px) {
+	.container {
+		width: 100%;
+	}
+
+	#generator-container {
+		position: relative;
+		left: 0;
+		top: 0;
+		display: block;
+		padding: 2px;
+	}
+	
+	#grid-container {
+		width: 100%;
+	}
+
+	.num {
+/*		padding: 2px;*/
+/*		font-size: 16px;*/
+		margin: 4px;
+	}
+}
+
+@media screen and (min-width: 800px) and (max-width: 1300px) {
+	#grid-container {
+		width: 600px;
+	}
+}
