@@ -36,6 +36,7 @@
 
       #generator-container {
         border: 1px solid #888;
+				border-radius: 30px;
         display: block;
         position: fixed;
         left: 20px;
@@ -69,7 +70,7 @@
         padding: 10px;
         cursor: pointer;
         border: 1px solid #b18308;
-        border-radius: 5px;
+        border-radius: 15px;
       }
 
       #btn-generate:active {
@@ -88,25 +89,13 @@
         padding: 10px;
         cursor: pointer;
         border: 1px solid #af7968;
-        border-radius: 5px;
+        border-radius: 15px;
         margin-bottom: 5px;
       }
       #btn-generate-reset:active {
         position: relative;
         left: 1;
         top: 1;
-      }
-
-      #banner-container {
-        border: 1px solid #888;
-        display: block;
-        position: fixed;
-        right: 20px;
-        top: 80px;
-        padding: 20px;
-        text-align: center;
-        box-sizing: border-box;
-        background-color: #fff;
       }
 
       #footer {
@@ -159,13 +148,13 @@
   </head>
   <body>
     <div class="container">
-      <h2>Housie / Tambola Number Generator</h2>
+      <h2>Housie/Tambola Board</h2>
       <div id="generator-container">
         <input
           type="button"
           value="New Game"
           id="btn-generate-reset"
-          onclick="location.reload()"
+          onclick="restart()"
         />
         <br />
         <input
@@ -188,6 +177,13 @@
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script>
+			function restart() {
+  		var r = confirm("Start a new game? Are you sure?");
+				if (r == true) { 
+				location.reload()
+				}
+			};
+			
       (function ($) {
         $.fn.extend({
           numAnim: function (options) {
@@ -249,12 +245,6 @@
       })(jQuery);
 
       var generated_numbers = [];
-
-      /*            $(function(){
-                for(i=1; i<=90; i++){
-                    $("<div />").addClass("num").html(i).attr("id","num-" + i).appendTo("#grid-container");
-								
-                }*/
       $(function () {
         for (i = 1; i <= 90; i++) {
           $("<div />")
@@ -262,11 +252,6 @@
             .html(i)
             .attr("id", "num-" + i)
             .appendTo("#grid-container");
-          /* code by smarath */
-          //   let file_name = `sounds/${i}.mp3`;
-          //   console.log({ file_name });
-          //   let play_sound = new Audio(file_name);
-          //   play_sound.play();
         }
 
         var cw = $(".num").width();
@@ -297,10 +282,8 @@
             //generated_numbers.push(i);
             //setTimeout("generateNum()",200);
             let file_name = `sounds/${i}.mp3`;
-            console.log({ file_name });
             let play_sound = new Audio(file_name);
-            play_sound.play();
-
+						play_sound.play();
             break;
           }
         }
