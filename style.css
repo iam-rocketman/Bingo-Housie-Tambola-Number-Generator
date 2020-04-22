@@ -135,8 +135,8 @@ a:hover {
 
 	.num {
 	padding: 2px;
-/*		font-size: 16px;*/
-		margin: 4px;
+	font-size: 16px;
+	margin: 4px;
 	}
 }
 
