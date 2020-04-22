@@ -302,6 +302,10 @@
         return Math.floor(Math.random() * (max - min + 1)) + min;
       }
     </script>
- 		<script src="pwabuilder-sw-register.js"></script>
+ 		<script src="pwabuilder-sw-register.js">
+			import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+			const el = document.createElement('pwa-update');
+			document.body.appendChild(el);
+		</script>
   </body>
 </html>
