@@ -1,39 +1,66 @@
 <html>
   <head>
-  	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  	<meta name="title" content="online tambola Game">
-		<meta name="description" content="Tambola housie board  game online app with sound and offline">
-		<meta name="keywords" content="tambola, housie, bingo, game, online, web app, web games">
-		<meta name="image" content="https://iam-rocketman.github.io/Bingo-Housie-Tambola-Number-Generator/images/tambola_board_game_cover_image.png">
-		<!-- Schema.org for Google -->
-		<meta itemprop="name" content="online tambola Game">
-		<meta itemprop="description" content="Tambola housie board  game online app with sound and offline">
-		<meta itemprop="image" content="https://iam-rocketman.github.io/Bingo-Housie-Tambola-Number-Generator/images/tambola_board_game_cover_image.png">
-		<!-- Open Graph general (Facebook, Pinterest & Google+) -->
-		<meta name="og:title" content="online tambola Game">
-		<meta name="og:description" content="Tambola housie board  game online app with sound and offline">
-		<meta name="og:image" content="https://iam-rocketman.github.io/Bingo-Housie-Tambola-Number-Generator/images/tambola_board_game_cover_image.png">
-		<meta name="og:url" content="https://iam-rocketman.github.io/Bingo-Housie-Tambola-Number-Generator">
-		<meta name="og:site_name" content="online tambola Game">
-		<meta name="og:type" content="website">
-		<meta name="robots" content="index, follow">
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<meta name="language" content="English">
-		<meta name="author" content="iam-rcoketman">
-  	<meta name="application-name" content="Tambola Board Game">
-  	<meta name="subject" content="online tambola Board Game">
-  	<meta name="rating" content="games">
-  	<meta name="robots" content="index,follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="title" content="online tambola Game" />
+    <meta
+      name="description"
+      content="Tambola housie board  game online app with sound and offline"
+    />
+    <meta
+      name="keywords"
+      content="tambola, housie, bingo, game, online, web app, web games"
+    />
+    <meta
+      name="image"
+      content="https://iam-rocketman.github.io/Bingo-Housie-Tambola-Number-Generator/images/tambola_board_game_cover_image.png"
+    />
+    <!-- Schema.org for Google -->
+    <meta itemprop="name" content="online tambola Game" />
+    <meta
+      itemprop="description"
+      content="Tambola housie board  game online app with sound and offline"
+    />
+    <meta
+      itemprop="image"
+      content="https://iam-rocketman.github.io/Bingo-Housie-Tambola-Number-Generator/images/tambola_board_game_cover_image.png"
+    />
+    <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+    <meta name="og:title" content="online tambola Game" />
+    <meta
+      name="og:description"
+      content="Tambola housie board  game online app with sound and offline"
+    />
+    <meta
+      name="og:image"
+      content="https://iam-rocketman.github.io/Bingo-Housie-Tambola-Number-Generator/images/tambola_board_game_cover_image.png"
+    />
+    <meta
+      name="og:url"
+      content="https://iam-rocketman.github.io/Bingo-Housie-Tambola-Number-Generator"
+    />
+    <meta name="og:site_name" content="online tambola Game" />
+    <meta name="og:type" content="website" />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="English" />
+    <meta name="author" content="iam-rcoketman" />
+    <meta name="application-name" content="Tambola Board Game" />
+    <meta name="subject" content="online tambola Board Game" />
+    <meta name="rating" content="games" />
+    <meta name="robots" content="index,follow" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <link rel="apple-touch-icon" href="images/e90f7a27-79e5-0f23-977d-3665a996a920.webPlatform.png">
-    <link rel='manifest' href='manifest.json'>
-    <link rel="stylesheet" href="style.css">
+    <link
+      rel="apple-touch-icon"
+      href="images/e90f7a27-79e5-0f23-977d-3665a996a920.webPlatform.png"
+    />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" href="style.css" />
     <title>Tambola Board Game</title>
   </head>
   <body>
     <div class="container">
-      <h2>Housie/Tambola Board Game</h2>
+      <h2>Lets play Housie/Tambola Board Game</h2>
       <div id="generator-container">
         <input
           type="button"
@@ -41,9 +68,9 @@
           id="btn-generate"
           onclick="generateNum()"
         />
-        <br>                    
+        <br />
         <div id="number">&nbsp;&nbsp;</div>
-        <br>
+        <br />
         <input
           type="button"
           value="RESET"
@@ -55,7 +82,12 @@
       <div id="grid-container"></div>
     </div>
     <div id="footer">
-            To Contribue or Report <a href="https://github.com/iam-rocketman/Bingo-Housie-Tambola-Number-Generator" target="_blank">CLICK HERE</a>
+      To Contribue or Report
+      <a
+        href="https://github.com/iam-rocketman/Bingo-Housie-Tambola-Number-Generator"
+        target="_blank"
+        >CLICK HERE</a
+      >
     </div>
     <!--
          <div id="footer">
@@ -65,13 +97,15 @@
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script>
-			function restart() {
-  		var r = confirm("Start a new game? Are you sure?");
-				if (r == true) { 
-				location.reload()
-				}
-			};
-			
+      function restart() {
+        var r = confirm("Start a new game? Are you sure?");
+        if (r == true) {
+          location.reload();
+          // generated_numbers = [];
+          // removeAttr('style');
+        }
+      }
+
       (function ($) {
         $.fn.extend({
           numAnim: function (options) {
@@ -146,14 +180,6 @@
         $(".num").css({ height: cw + "px", "line-height": cw + "px" });
       });
 
-      /*					function makeSound(num) {
-					num = parseInt(num);
-					let file_name = `sounds/${num}.mp3`;
-					console.log({ file_name });
-					let play_sound = new Audio(file_name);
-					play_sound.play();
-				}*/
-
       function generateNum() {
         if (generated_numbers.length == 90) {
           alert("Full House!");
@@ -171,7 +197,7 @@
             //setTimeout("generateNum()",200);
             let file_name = `sounds/${i}.mp3`;
             let play_sound = new Audio(file_name);
-						play_sound.play();
+            play_sound.play();
             break;
           }
         }
@@ -181,10 +207,10 @@
         return Math.floor(Math.random() * (max - min + 1)) + min;
       }
     </script>
- 		<script type="module" src="pwabuilder-sw-register.js">
-			import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
-			const el = document.createElement('pwa-update');
-			document.body.appendChild(el);
-		</script>
+    <script type="module" src="pwabuilder-sw-register.js">
+      import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+      const el = document.createElement('pwa-update');
+      document.body.appendChild(el);
+    </script>
   </body>
 </html>
