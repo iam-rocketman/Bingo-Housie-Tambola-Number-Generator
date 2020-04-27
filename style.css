@@ -22,7 +22,7 @@ h2 {
 	border: 1px solid #ccc;
 	display: inline-block;
 	color: #cccccc;
-	font-size: 34px;
+	font-size: 24px;
 	box-sizing: border-box;
 }
 
@@ -141,6 +141,17 @@ a:hover {
 }
 
 @media screen and (min-width: 800px) and (max-width: 1300px) {
+	.container {
+		width: 100	%;
+	}
+	
+	#generator-container {
+		left: 0;
+		display: block;
+		padding: 2px;
+		border: none !important;
+	}
+	
 	#grid-container {
 		width: 600px;
 	}
