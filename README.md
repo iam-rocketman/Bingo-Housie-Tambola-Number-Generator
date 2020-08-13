@@ -20,5 +20,5 @@ For demo clik on [Preview](https://iam-rocketman.github.io/Bingo-Housie-Tambola-
 You can also suggest feature by creating a [ticket](https://github.com/iam-rocketman/Bingo-Housie-Tambola-Number-Generator/issues)
 
 
-All creitds beling to Yash
+All creitds belong to Yash
 This is a enhancement proejct based on http://yash.info/bingo.htm
